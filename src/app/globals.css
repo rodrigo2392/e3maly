@@ -16,7 +16,12 @@
   }
 }
 
-body {
+.gray-gradient {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient( to bottom, #0a060e  50%, #1b1b25);
+  background: linear-gradient( to bottom, #0a060e  20%, #1b1b25);
+}
+
+.green-gradient {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient( to bottom, #1b1b25  5%, #313843);
 }
